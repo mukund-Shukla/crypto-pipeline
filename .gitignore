@@ -1,0 +1,8 @@
+venv/
+.env
+raw/
+processed/
+logs/
+__pycache__/
+*.pyc
+*.parquet
