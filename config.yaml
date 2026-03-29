@@ -1,0 +1,16 @@
+api:
+  base_url: "https://api.coingecko.com/api/v3"
+  top_n: 250              # total coins you want
+  per_page: 100           # max CoinGecko allows per page
+  currency: "usd"
+  retry_attempts: 3
+  retry_delay_seconds: 5
+  rate_limit_delay_seconds: 2   # pause between pages
+  
+storage:
+  raw_dir: "raw"
+  processed_dir: "processed"
+
+logging:
+  log_file: "logs/pipeline.log"
+  level: "INFO"
