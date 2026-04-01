@@ -233,9 +233,6 @@ Once the pipeline has run for several days, the following questions become answe
 
 ### Q1 — What is the total crypto market cap and how did it change day over day?
 
-Volume-to-market-cap ratio measures how actively a coin is traded relative to its size.
-A high ratio means high liquidity — easier to buy and sell without moving the price.
-
 ```sql
 SELECT
     load_date,
